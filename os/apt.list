@@ -6910,7 +6910,7 @@ foot/oldstable 1.6.4-1 armhf
 fop-doc/oldstable 1:2.5-3 all
 fop/oldstable 1:2.5-3 all
 foremancli/oldstable 1.0-3 all
-foremost/oldstable 1.5.7-9.1 armhf
+foremost/oldstable,now 1.5.7-9.1 armhf [installed]
 forensic-artifacts/oldstable 20201106-1 all
 forensics-all-gui/oldstable 3.30 all
 forensics-all/oldstable 3.30 all
@@ -7251,7 +7251,7 @@ fuse-posixovl/oldstable 1.2.20120215+gitf5bfe35-3 armhf
 fuse-zip/oldstable 0.5.0-1 armhf
 fuse2fs/oldstable 1.46.2-2 armhf
 fuse3/oldstable 3.10.3-2 armhf
-fuse/oldstable 2.9.9-5 armhf
+fuse/oldstable,now 2.9.9-5 armhf [installed,automatic]
 fuseiso/oldstable 20070708-3.2+b1 armhf
 fusion-icon/oldstable 0.2.4-5 all
 fusiondirectory-plugin-alias-schema/oldstable 1.3-4 all
@@ -19101,7 +19101,7 @@ libfuntools1/oldstable 1.4.7-4 armhf
 libfurl-perl/oldstable 3.13-2 all
 libfuse-dev/oldstable 2.9.9-5 armhf
 libfuse-perl/oldstable 0.16.1+20180422git6becd92d7fce3fc411d7c-4+b3 armhf
-libfuse2/oldstable 2.9.9-5 armhf
+libfuse2/oldstable,now 2.9.9-5 armhf [installed,automatic]
 libfuse3-3/oldstable 3.10.3-2 armhf
 libfuse3-dev/oldstable 3.10.3-2 armhf
 libfuture-asyncawait-perl/oldstable 0.49-1 armhf
@@ -28927,7 +28927,7 @@ libnss3/oldstable,oldstable-security,now 2:3.61-1+deb11u3 armhf [installed,autom
 libnsync-cpp1/oldstable 1.24.0-1 armhf
 libnsync-dev/oldstable 1.24.0-1 armhf
 libnsync1/oldstable 1.24.0-1 armhf
-libntfs-3g883/oldstable,oldstable-security 1:2017.3.23AR.3-4+deb11u3 armhf
+libntfs-3g883/oldstable,oldstable-security,now 1:2017.3.23AR.3-4+deb11u3 armhf [installed,automatic]
 libntirpc-dev/oldstable 3.4-2 armhf
 libntirpc3.4/oldstable 3.4-2 armhf
 libntirpc4.0/bullseye-backports 4.0-2~bpo11+1 armhf
@@ -42299,7 +42299,7 @@ nstreams/oldstable 1.0.4-1+b1 armhf
 nted-doc/oldstable 1.10.18-12 all
 nted/oldstable 1.10.18-12 armhf
 ntfs-3g-dev/oldstable,oldstable-security 1:2017.3.23AR.3-4+deb11u3 armhf
-ntfs-3g/oldstable,oldstable-security 1:2017.3.23AR.3-4+deb11u3 armhf
+ntfs-3g/oldstable,oldstable-security,now 1:2017.3.23AR.3-4+deb11u3 armhf [installed,automatic]
 ntp-doc/oldstable 1:4.2.8p15+dfsg-1 all
 ntp/oldstable 1:4.2.8p15+dfsg-1 armhf
 ntpdate/oldstable 1:4.2.8p15+dfsg-1 armhf
@@ -55925,7 +55925,7 @@ tesseract-ocr-yid/oldstable 1:4.00~git30-7274cfa-1.1 all
 tesseract-ocr-yor/oldstable 1:4.00~git30-7274cfa-1.1 all
 tesseract-ocr/oldstable 4.1.1-2.1 armhf
 testdisk-dbg/oldstable 7.1-5 armhf
-testdisk/oldstable 7.1-5 armhf
+testdisk/oldstable,now 7.1-5 armhf [installed]
 testng/oldstable 6.9.12-4 all
 testrepository/oldstable 0.0.20-5 all
 testssl.sh/oldstable 3.0.4+dfsg1-1 all
