@@ -3,6 +3,7 @@ mkdir -p $HOME/klipper_backup/printer/config $HOME/klipper_backup/printer/macros
 cat $HOME/moonraker-timelapse/klipper_macro/timelapse.cfg > $HOME/klipper_backup/printer/klipper_macro/timelapse.cfg
 cat $HOME/printer_data/config/telegram.conf > $HOME/klipper_backup/printer/config/telegram.cfg
 cat $HOME/printer_data/config/printer.cfg > $HOME/klipper_backup/printer/config/printer.cfg
+cat $HOME/printer_data/config/macros.cfg > $HOME/klipper_backup/printer/config/macros.cfg
 cat $HOME/printer_data/config/moonraker.conf > $HOME/klipper_backup/printer/config/moonraker.cfg
 cat $HOME/printer_data/config/crowsnest.conf > $HOME/klipper_backup/printer/config/crowsnest.cfg
 cd $HOME/printer_data/config/macros
