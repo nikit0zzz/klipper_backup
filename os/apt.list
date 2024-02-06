@@ -19358,9 +19358,9 @@ libgdf0/oldstable 0.1.3-8 armhf
 libgdiplus/oldstable 6.0.4+dfsg-2 armhf
 libgdk-pixbuf-2.0-0/oldstable,oldstable-security,now 2.42.2+dfsg-1+deb11u1 armhf [installed,automatic]
 libgdk-pixbuf-2.0-dev/oldstable,oldstable-security 2.42.2+dfsg-1+deb11u1 armhf
-libgdk-pixbuf-xlib-2.0-0/oldstable 2.40.2-2 armhf
+libgdk-pixbuf-xlib-2.0-0/oldstable,now 2.40.2-2 armhf [installed,automatic]
 libgdk-pixbuf-xlib-2.0-dev/oldstable 2.40.2-2 armhf
-libgdk-pixbuf2.0-0/oldstable 2.40.2-2 armhf
+libgdk-pixbuf2.0-0/oldstable,now 2.40.2-2 armhf [installed,automatic]
 libgdk-pixbuf2.0-bin/oldstable,oldstable-security 2.42.2+dfsg-1+deb11u1 armhf
 libgdk-pixbuf2.0-common/oldstable,oldstable-security,now 2.42.2+dfsg-1+deb11u1 all [installed,automatic]
 libgdk-pixbuf2.0-dev/oldstable 2.40.2-2 armhf
@@ -23231,7 +23231,7 @@ libgnome-menu-3-0/oldstable 3.36.0-1 armhf
 libgnome-menu-3-dev/oldstable 3.36.0-1 armhf
 libgnome-panel-dev/oldstable 3.38.0-1+b1 armhf
 libgnome-panel-doc/oldstable 3.38.0-1 all
-libgnome-panel0/oldstable 3.38.0-1+b1 armhf
+libgnome-panel0/oldstable,now 3.38.0-1+b1 armhf [installed,automatic]
 libgnome-todo-dev/oldstable 3.28.1-6 armhf
 libgnome-todo/oldstable 3.28.1-6 armhf
 libgnomecanvas2-0/oldstable 2.30.3-4 armhf
@@ -28881,7 +28881,7 @@ libnotify-doc/oldstable 0.7.9-3 all
 libnotify0.4-cil/oldstable 0.4.0~r3032-7.1 all
 libnotify3.0-cil-dev/oldstable 3.0.3-3 all
 libnotify3.0-cil/oldstable 3.0.3-3 all
-libnotify4/oldstable 0.7.9-3 armhf
+libnotify4/oldstable,now 0.7.9-3 armhf [installed,automatic]
 libnotmuch-dev/oldstable 0.31.4-2 armhf
 libnotmuch5/oldstable 0.31.4-2 armhf
 libnova-0.16-0/oldstable 0.16-5 armhf
@@ -33818,7 +33818,7 @@ libsendmail-milter-perl/oldstable 0.18-8+b7 armhf
 libsendmail-pmilter-perl/oldstable 1.00-1.1 all
 libsensor-msgs-dev/oldstable 1.13.0-2 armhf
 libsensors-applet-plugin-dev/oldstable 3.0.0+git6-0.5 armhf
-libsensors-applet-plugin0/oldstable 3.0.0+git6-0.5 armhf
+libsensors-applet-plugin0/oldstable,now 3.0.0+git6-0.5 armhf [installed,automatic]
 libsensors-config/oldstable,now 1:3.6.0-7 all [installed,automatic]
 libsensors-dev/oldstable 1:3.6.0-7 armhf
 libsensors4-dev/oldstable 1:3.6.0-7 armhf
@@ -54062,7 +54062,7 @@ senlin-health-manager/oldstable 10.0.0-1 all
 senlin-tempest-plugin/oldstable 1.1.0-2 all
 sensible-mda/oldstable 8.15.2-22 armhf
 sensible-utils/oldstable,now 0.0.14 all [installed]
-sensors-applet/oldstable 3.0.0+git6-0.5 armhf
+sensors-applet/oldstable,now 3.0.0+git6-0.5 armhf [installed]
 sent/oldstable 1-3 armhf
 sentencepiece/oldstable 0.1.95-1 armhf
 sentineldl/oldstable 20200319-2 all
