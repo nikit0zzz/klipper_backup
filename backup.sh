@@ -22,7 +22,7 @@ for cfg in *.cfg
 apt list > $HOME/klipper_backup/os/apt.list
 
 cat $HOME/printer_data/moonraker.asvc > $HOME/klipper_backup/moonraker.asvc 
-cat $HOME/klipper/printer_data/database/moonraker-sql.db|base64 > $HOME/klipper_backup/database/moonraker-sql.db.base64
+cat $HOME/printer_data/database/moonraker-sql.db|base64 > $HOME/klipper_backup/database/moonraker-sql.db.base64
 cat $HOME/.local/share/spoolman/spoolman.db|base64 > $HOME/klipper_backup/spoolman/spoolman.db.base64
 
 cd $HOME/klipper_backup
