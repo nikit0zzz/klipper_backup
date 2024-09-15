@@ -1,4 +1,11 @@
 !#/usr/bin/bash
+
+PRINTER_STATE=$(curl 127.0.0.1:80/printer/info | jq -r '.result.state')
+if [[ "$PRINTER_STATE" != "ready" ]]
+  then
+    exit
+fi
+
 mkdir -p $HOME/klipper_backup/printer/config $HOME/klipper_backup/printer/macros $HOME/klipper_backup/printer/timelapse $HOME/klipper_backup/printer/klipper_macro $HOME/klipper_backup/os $HOME/klipper_backup/spoolman $HOME/klipper_backup/database
 #cat $HOME/moonraker-timelapse/klipper_macro/timelapse.cfg > $HOME/klipper_backup/printer/klipper_macro/timelapse.cfg
 #cat $HOME/printer_data/config/telegram.conf > $HOME/klipper_backup/printer/config/telegram.cfg
