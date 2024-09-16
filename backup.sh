@@ -1,7 +1,7 @@
 !#/usr/bin/bash
 
 PRINTER_STATE=$(curl 127.0.0.1:80/printer/info | jq -r '.result.state')
-if [[ "$PRINTER_STATE" != "ready" ]]
+if [[ "$PRINTER_STATE" == "ready" ]]
   then
     exit
 fi
