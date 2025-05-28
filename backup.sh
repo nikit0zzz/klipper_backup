@@ -1,5 +1,27 @@
 !#/usr/bin/bash
 
+cd $HOME/klipper_backup
+git pull
+
+# Проверяем существование git-репозитория
+if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
+    echo "Ошибка: директория не является git-репозиторием" >&2
+    exit 1
+fi
+
+current_hostname="klipper_backup"
+current_month=$(date +%Y-%m)
+
+# Проверяем существование коммита с текущим hostname в этом месяце
+if git log --since="$(date +%Y-%m-01)" --until="$(date +%Y-%m-01 -d 'next month')" \
+    --pretty=format:%s | grep "$current_hostname"; then
+    echo "Коммит с hostname $current_hostname уже существует в месяце $current_month"
+    exit 0
+fi
+
+echo "SUCCESS: All conditions met"
+
+
 PRINTER_STATE=$(curl 127.0.0.1:80/printer/info | jq -r '.result.state')
 if [[ "$PRINTER_STATE" == "ready" ]]
   then
