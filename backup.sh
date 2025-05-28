@@ -9,11 +9,11 @@ if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
     exit 1
 fi
 
-current_hostname="klipper_backup"
+current_hostname="klipper backup"
 current_month=$(date +%Y-%m)
 
 # Проверяем существование коммита с текущим hostname в этом месяце
-if git log --since="$(date +%Y-%m-01)" --until="$(date +%Y-%m-01 -d 'next month')" --pretty=format:%s | grep "klipper_backup"
+if git log --since="$(date +%Y-%m-01)" --until="$(date +%Y-%m-01 -d 'next month')" --pretty=format:%s | grep "$current_hostname"
 then
     echo "Коммит с hostname $current_hostname уже существует в месяце $current_month"
     exit 0
